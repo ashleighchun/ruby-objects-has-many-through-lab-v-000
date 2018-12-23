@@ -1,10 +1,14 @@
 class Patient 
   
+
   attr_reader :appointments
   
   attr_accessor :name, :doctors 
   
   @@all = []
+
+  attr_accessor :name, :doctors, :appointments
+
   
   def initialize(name)
     @name = name
@@ -40,3 +44,5 @@ end
 #genre = doctor
 #song = appointment
 #artist = patient
+
+  

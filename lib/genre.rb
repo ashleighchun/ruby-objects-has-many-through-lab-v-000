@@ -1,3 +1,4 @@
+
 require "pry"
 class Genre 
 
@@ -35,3 +36,8 @@ end
 #genre = waiter
 #song = meal
 #artist = customer
+
+  
+  
+
+

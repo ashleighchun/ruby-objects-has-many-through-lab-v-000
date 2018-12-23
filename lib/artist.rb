@@ -1,6 +1,7 @@
 class Artist 
   attr_accessor :name, :songs 
   
+
   @@all = []
   @@songs = []
   
@@ -36,3 +37,5 @@ end
 #genre = doctor
 #song = appointment
 #artist = patient
+
+ 
